@@ -8,9 +8,6 @@ app.set('view engine', 'ejs');
 
 app.use(express.static("public"));
 
-
-var mongoose = require('./mongoconnection');
-
 	const mongoose = require("mongoose");            
 main().catch(err => console.log(err));
 
