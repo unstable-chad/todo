@@ -212,4 +212,4 @@ app.post("/delete", function (req,res) {
 
 
 app.listen(process.env.PORT, function(){
-    console.log("server running at port 3000" || process.env.PORT )});
+    console.log(process.env.PORT )});
